@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import random
 import time
+import config
 class main():
     def __init__(self, bot):
         self.bot = bot
@@ -26,7 +27,7 @@ class main():
             await self.bot.say("Please enter something to send!")
         else:
             msg = "{} <@{}>:\n➠ {} ({})".format(author, authorid, m, time.ctime())
-            channel = self.bot.get_channel("435657494275293184")
+            channel = self.bot.get_channel(config.contactchannel)
             await self.bot.send_message(channel, msg)
             await self.bot.say("Sent Message! :e_mail: ")
         
