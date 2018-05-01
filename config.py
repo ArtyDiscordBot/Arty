@@ -9,3 +9,6 @@ OWNERID = "ID"
 
 # Bump is Currently being worked on!
 bumpchannel = "Channel ID"
+
+# The channel ID for contacts
+contactchannel = "Channel ID"
