@@ -1,5 +1,9 @@
 # Arty
-
+<style>
+  body {
+      background-color: black;
+  }
+</style>
 ![Arty](https://artydiscordbot.github.io/img/icon.png)
 <a href="https://discord.gg/2B4UvKx"><img src="https://discordapp.com/api/guilds/434616224421511170/widget.png?style=banner2" alt="" /></a>
 # Installation
