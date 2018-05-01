@@ -9,4 +9,4 @@ View our installation Guide!
 
 # Support
 
-![Discord](https://discordapp.com/widget?id=434616224421511170&theme=dark)
+[Discord](https://discordapp.com/widget?id=434616224421511170&theme=dark)
