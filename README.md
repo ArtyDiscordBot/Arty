@@ -1,7 +1,8 @@
 # Arty
 ![Arty](https://artydiscordbot.github.io/img/icon.png)
-
+<center>
 <a href="https://discord.gg/JJ7vrKH"><img src="https://discordapp.com/api/guilds/434616224421511170/widget.png?style=banner2" alt="" /></a>
+</center>
 # Installation
 
 View our installation Guide!
