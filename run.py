@@ -1,3 +1,4 @@
+# Made by Artucuno#1898
 import discord
 from discord.ext.commands import Bot
 import logging
@@ -213,6 +214,7 @@ async def servers(ctx):
 @bot.command(pass_context=True)
 async def ema(ctx):
     """"""
+    # This was a test (Dont Use!)
     em = discord.Embed(color=0x000000)
     em.set_author(name="idk", icon="google.jpeg")
     await self.bot.say(embed=em)
@@ -314,11 +316,11 @@ async def setperms(ctx, role="Arty Perms"):
     if ctx.message.author.server_permissions.administrator:
         await bot.whisper("**__Setting Up My Perms!__**\n"
                           "\n"
-                          "Create a role called `Arty Perms` in your server\n"
+                          "Create a role called `{} Perms` in your server\n"
                           "Move it to a position in **Server Settings > Roles**\n"
                           "\n"
-                          "You dont have to move my Default Role (`Arty`)\n"
+                          "You dont have to move my Default Role (`{}`)\n"
                           "\n"
-                          "When you move the `Arty Perms` role it gives me Extra server permissions!")
+                          "When you move the `Arty Perms` role it gives me Extra server permissions!".format(bot.user.name, bot.user.name))
                           
 bot.run(config.token)
